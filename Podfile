@@ -7,6 +7,10 @@ platform :ios, '8.0'
 
 use_frameworks!
 
+
+  pod 'LayerKit', :git => "https://github.com/joseMneto/lkit", :branch => 'master'
+
+
 target 'Programmatic' do
   pod 'Atlas', path: '.'
 end
